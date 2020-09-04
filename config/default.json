@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://username:Password@cluster0.hurdp.mongodb.net/Test?retryWrites=true&w=majority",
-  "jwtSecret": "mysecrettoken"
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "50966e070666c0b984e9",
+  "githubSecret": "746b68387edda5ade90226d7d311f2b990d22af3"
 }
