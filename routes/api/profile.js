@@ -110,7 +110,7 @@ router.post(
 );
 
 //@rout        GET All api/profile/
-//Description   Get current users profile
+//Description   GET current users profile
 //@access       Public
 
 router.get("/", async (req, res) => {
@@ -124,7 +124,7 @@ router.get("/", async (req, res) => {
 });
 
 //@rout        GET All api/profile/user/:user_id
-//Description   Get profile by user ID
+//Description   GET profile by user ID
 //@access       Public
 
 router.get("/user/:user_id", async (req, res) => {
@@ -146,7 +146,7 @@ router.get("/user/:user_id", async (req, res) => {
 });
 
 //@rout        GET All api/profile/
-//Description   Delete Profile, user & posts
+//Description   DELETE Profile, user & posts
 //@access       Private
 
 router.delete("/", auth, async (req, res) => {
@@ -170,7 +170,7 @@ router.delete("/", auth, async (req, res) => {
 });
 
 //@rout        GET All api/profile/expreience
-//Description   Add profile experience
+//Description   ADD PROFILE EXPERIENCE
 //@access       Private
 
 router.put(
@@ -247,7 +247,7 @@ router.delete("/experiences/:exp_id", auth, async (req, res) => {
 });
 
 //@rout        GET All api/profile/education
-//Description   Add profile education
+//Description   ADD profile EDUCATION
 //@access       Private
 
 router.put(
@@ -303,7 +303,7 @@ router.put(
 );
 
 //@rout        DELETE All api/profile/education/:edu_id
-//Description   Delete experience from profile
+//Description   DELETE profile EXPERIENCE
 //@access       Private
 
 router.delete("/education/:edu_id", auth, async (req, res) => {
